@@ -2,11 +2,16 @@
 
 $charcoal: #2b2b2b
 $off-black: #212224
+$shadow: #151618
+$red: #ef4757
+$blue: #69b5eb
+$green: #83d447
 
 html, body
 	background-color: $charcoal
 	font-family: 'Iceland', sans-serif
 	height: 100%
+	color: white
 
 body
 	margin: 0
@@ -16,7 +21,6 @@ body
 	text-align: center
 
 h1, h2, h3, h4, h5, p, a
-	color: white
 	font-weight: 500
 
 p
@@ -47,10 +51,20 @@ h2
 
 .drum-pad
 	background-color: $off-black
-	color: white
 	text-align: center
 	flex: 3
 	margin: 10px
 	height: 100px
 	width: 100px
+	border-left: 4px solid $shadow
+	border-bottom: 4px solid $shadow
+	border-radius: 10px
 
+.row-one
+	box-shadow: -5px 5px $red
+
+.row-two
+	box-shadow: -5px 5px $blue
+
+.row-three
+	box-shadow: -5px 5px $green
