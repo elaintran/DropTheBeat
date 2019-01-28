@@ -17,9 +17,6 @@ body
 	margin: 0
 	padding: 0
 
-.container
-	text-align: center
-
 h1, h2, h3, h4, h5, p, a
 	font-weight: 500
 
@@ -37,6 +34,9 @@ h2
 	margin-top: 1rem
 	font-size: 40px
 	margin-bottom: 0
+
+.container
+	text-align: center
 
 #drum-machine
 	width: 100%
@@ -59,6 +59,7 @@ h2
 	border-left: 4px solid $shadow
 	border-bottom: 4px solid $shadow
 	border-radius: 10px
+	cursor: pointer
 
 .row-one
 	box-shadow: -5px 5px $red
@@ -68,3 +69,9 @@ h2
 
 .row-three
 	box-shadow: -5px 5px $green
+
+.drum-pad:active
+	background-color: $shadow
+	transform: translate(-5px,5px)
+	box-shadow: 0 0 transparent
+	transition: all 0.1s
