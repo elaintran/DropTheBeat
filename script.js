@@ -45,3 +45,15 @@ var keys = [{
     url: 'https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/tink.wav'
   },
 ]
+
+function drum() {
+    for(var i = 0; i < keys.length; i++) {
+        if (keys[i].keyCode) {
+
+        }
+    }
+}
+
+function activePad() {
+    
+}

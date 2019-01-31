@@ -62,7 +62,7 @@ h2 {
 .row-three {
   box-shadow: -5px 5px #83d447; }
 
-.drum-pad:active {
+.active {
   background-color: #151618;
   transform: translate(-5px, 5px);
   box-shadow: 0 0 transparent;
